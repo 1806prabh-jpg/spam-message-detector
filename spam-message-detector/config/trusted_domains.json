@@ -1,0 +1,38 @@
+{
+  "_comment": "Example trusted-domain configuration. Domains listed here are recognized as official/known domains. This does NOT verify that any specific sender is legitimate — it only checks whether the domain in the sender address or URL matches a known list. Add or remove domains as needed for your use case.",
+  "trusted_domains": [
+    "google.com",
+    "microsoft.com",
+    "amazon.com",
+    "apple.com",
+    "github.com",
+    "linkedin.com",
+    "paypal.com",
+    "stripe.com",
+    "instagram.com",
+    "twitter.com",
+    "facebook.com",
+    "whatsapp.com",
+    "youtube.com",
+    "netflix.com",
+    "spotify.com",
+    "adobe.com",
+    "ibm.com",
+    "oracle.com",
+    "salesforce.com",
+    "zoom.us"
+  ],
+  "_free_email_providers_note": "Free email providers are not inherently suspicious, but they are commonly used in spam. A message from a free email provider should be treated with normal caution.",
+  "free_email_domains": [
+    "gmail.com",
+    "yahoo.com",
+    "hotmail.com",
+    "outlook.com",
+    "live.com",
+    "aol.com",
+    "protonmail.com",
+    "icloud.com",
+    "mail.com",
+    "zoho.com"
+  ]
+}
