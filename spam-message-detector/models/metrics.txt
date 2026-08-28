@@ -1,0 +1,25 @@
+Spam Message Detector — Evaluation Results
+==================================================
+
+Dataset: /tmp/cc-agent/70256179/project/spam-message-detector/data/spam.csv
+Total messages: 5565
+Spam: 747  |  Ham: 4818
+Train size: 4452  |  Test size: 1113
+
+Multinomial Naive Bayes
+----------------------------------------
+  Accuracy : 0.9874
+  Precision: 1.0000
+  Recall   : 0.9060
+  F1-score : 0.9507
+  Confusion Matrix: TN=964, FP=0, FN=14, TP=135
+
+Logistic Regression
+----------------------------------------
+  Accuracy : 0.9704
+  Precision: 0.8671
+  Recall   : 0.9195
+  F1-score : 0.8925
+  Confusion Matrix: TN=943, FP=21, FN=12, TP=137
+
+Selected model: Multinomial Naive Bayes
